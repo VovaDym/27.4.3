@@ -26,6 +26,7 @@ public:
         Employee* newWorker = new Employee;
         newWorker->boss = this;
         subordinate.push_back(newWorker);
+        
     }
 
     int getAmountSubordinate()

@@ -48,6 +48,8 @@ int main()
                 std::cout << "employee " << assignment << "." << i << " received a type C task" << std::endl;
             }    
         }
+        
         std::cout << std::endl;
-    }      
+    } 
+    delete company;
 }
